@@ -1,0 +1,58 @@
+# ==========================================
+# Python & Environment
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Application Specific Outputs
+# ==========================================
+# Ignore any dynamically generated output folders
+output/
+outputs/
+augmented_images/
+batch_output/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.tif
+*.webp
+
+# Except if you keep sample images in a specific subfolder (uncomment if needed)
+# !samples/*.jpg
+
+# ==========================================
+# Configuration & State
+# ==========================================
+# If users save presets locally, you might want to exclude them 
+# or track them. Usually, custom presets should be ignored.
+*.json
+!requirements.txt
+
+# ==========================================
+# IDEs and Editors
+# ==========================================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm / JetBrains
+.idea/
+
+# Mac / Windows OS files
+.DS_Store
+Thumbs.db
